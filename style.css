@@ -121,5 +121,8 @@ article{
 h2{
   color: #990000; /* Crimson Red */
   font-size: 36px;
+}
 
+p{
+  margin: 10px 0;
 }
