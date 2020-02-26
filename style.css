@@ -126,3 +126,19 @@ h2{
 p{
   margin: 10px 0;
 }
+
+.exec-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.pos{
+  padding: 20px;
+  border: 5px solid #990000;
+  border-radius: 5px;
+}
+
+.desc{
+  float: left;
+}
