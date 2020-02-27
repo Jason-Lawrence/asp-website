@@ -15,21 +15,21 @@ body{
   background: black;
   color: #D3D3D3;
 }
-@media screen and (min-width: 380px){
-  .nav{
-    background-color: #990000; /* Crimson Red */
-    display: grid;
-    font-size: 16px;
-    grid-gap: 1em;
-    top: 0;
-    text-align: center;
- }
- .nav-item a{
-   color: #D3D3D3;
-   padding: 6px 8px;
-   text-decoration: none;
- }
+
+.nav{
+  background-color: #990000; /* Crimson Red */
+  display: grid;
+  font-size: 16px;
+  grid-gap: 1em;
+  top: 0;
+  text-align: center;
 }
+.nav-item a{
+ color: #D3D3D3;
+ padding: 6px 8px;
+ text-decoration: none;
+}
+
 @media screen and (min-width: 830px){
   .nav{
     background-color: #990000; /* Crimson Red */
