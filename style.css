@@ -40,6 +40,19 @@ header{
   color: black;
 }
 
+.footer{
+    background-color: #990000;
+    color: #D3D3D3;
+    display: grid;
+    font-size: 14px;
+    grid-gap: 2em;
+    text-align: center;
+}
+
+#contacts{
+  color: #D3D3D3;
+}
+
 .phoenix{
   display: block;
   margin-left: auto;
@@ -186,5 +199,21 @@ p{
     color: #D3D3D3;
     padding: 14px 16px;
     text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 830px){
+  .footer{
+    background-color: #990000; /* Crimson Red */
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: repeat(4, 2fr);
+    grid-auto-rows: auto;
+    grid-gap: 0.5em;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
   }
 }
