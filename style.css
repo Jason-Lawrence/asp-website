@@ -82,20 +82,14 @@ h1{
 
 .container{
   position: relative;
-
 }
 
 .quote1{
-  left: 200px;
-  position: absolute;
-  top: 300px;
+  visibility: hidden;
 }
 
 .quote2{
-  right: 350px;
-  position: absolute;
-  top: 600px;
-  width: 300px;
+  visibility: hidden;
 }
 
 .quote-text{
@@ -226,11 +220,27 @@ p{
     padding: 14px 16px;
     text-decoration: none;
   }
+
+  .quote1{
+    left: 10%;
+    position: absolute;
+    top: 30%;
+    visibility: visible;
+  }
+
+  .quote2{
+    right: 15%;
+    position: absolute;
+    top: 60%;
+    width: 300px;
+    visibility: visible;
+  }
 }
 
 @media screen and (min-width: 830px){
   .footer{
     background-color: #990000; /* Crimson Red */
+    bottom: 0;
     display: grid;
     font-size: 20px;
     grid-template-columns: repeat(4, 2fr);
@@ -239,6 +249,7 @@ p{
     align-items: center;
     margin: 0;
     overflow: hidden;
+    position: fixed;
     text-align: center;
     width: 100%;
   }
