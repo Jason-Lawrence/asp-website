@@ -77,6 +77,30 @@ h1{
 .chapter{
   font-size: 65px;
   text-align: center;
+  padding-bottom: 60px;
+}
+
+.container{
+  position: relative;
+
+}
+
+.quote1{
+  left: 200px;
+  position: absolute;
+  top: 300px;
+}
+
+.quote2{
+  right: 350px;
+  position: absolute;
+  top: 600px;
+  width: 300px;
+}
+
+.quote-text{
+  color: #A9A9A9;
+  font-size: 40px;
 }
 
 article{
